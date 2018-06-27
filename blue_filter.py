@@ -10,8 +10,8 @@ while(True):
 	# hue, sat, val .. color range purpose
 	hsv_version = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-	lower_red = np.array([40,50,50])
-	upper_red = np.array([80,255,255])
+	lower_red = np.array([100,50,50])
+	upper_red = np.array(130,255,255])
 	mask = cv2.inRange(hsv_version, lower_red, upper_red)
 
 	res = cv2.bitwise_and(frame, frame, mask=mask)
