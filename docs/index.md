@@ -20,7 +20,7 @@ res = cv2.bitwise_and(frame, frame, mask=mask)
 ```
 
 *   Actually, the mask is not yet defined. Let's see what the mask actually is. In OpenCV, Hue ranges from 0 to 180, Saturation tanges from 0 to 255 aand Value of Intensity ranges from 0 to 255. Below showed picture describes the variation.
-![hsv](hsv.png)
+![hsv](https://github.com/TejasReddy9/color_filtering/blob/master/hsv.png)
 
 
 ## Results
